@@ -1,0 +1,260 @@
+{
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "release": "6.18.44",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "logicalCPUs": 9,
+    "date": "2026-10-09T14:31:25.034Z",
+    "chromePath": "/root/.cache/ms-playwright/chromium_headless_shell-1161/chrome-linux/headless_shell"
+  },
+  "conditions": "Build de demonstração otimizado, MSW ativo, cenário padrão, assets e fontes locais, cache e perfil novos em cada medição. Mobile Lighthouse padrão; desktop 1440x1080 CPU 1x RTT 40ms.",
+  "medians": [
+    {
+      "route": "/",
+      "profile": "mobile",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3745.28,
+      "CLS": 0.006403278485923728,
+      "TBT": 287.0000000000001
+    },
+    {
+      "route": "/",
+      "profile": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 850.53,
+      "CLS": 0.0004747916666666666,
+      "TBT": 8
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "mobile",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3611.696,
+      "CLS": 0.000016731419990689585,
+      "TBT": 179.74199999999996
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 768.592,
+      "CLS": 0.00016650282708069718,
+      "TBT": 8
+    }
+  ],
+  "runs": [
+    {
+      "route": "/",
+      "profile": "mobile",
+      "run": 1,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 72,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3747.744,
+      "CLS": 0,
+      "TBT": 702.4389999999999
+    },
+    {
+      "route": "/",
+      "profile": "mobile",
+      "run": 2,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3552.3199999999997,
+      "CLS": 0.006403278485923728,
+      "TBT": 287.0000000000001
+    },
+    {
+      "route": "/",
+      "profile": "mobile",
+      "run": 3,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3745.28,
+      "CLS": 0.006403278485923728,
+      "TBT": 262
+    },
+    {
+      "route": "/",
+      "profile": "desktop",
+      "run": 1,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 975.457,
+      "CLS": 0.0013364094721452756,
+      "TBT": 8
+    },
+    {
+      "route": "/",
+      "profile": "desktop",
+      "run": 2,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 850.53,
+      "CLS": 0.0004747916666666666,
+      "TBT": 74
+    },
+    {
+      "route": "/",
+      "profile": "desktop",
+      "run": 3,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 736.32,
+      "CLS": 0.0004747916666666666,
+      "TBT": 0
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "mobile",
+      "run": 1,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 88,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3611.696,
+      "CLS": 0.000016731419990689585,
+      "TBT": 162.32600000000002
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "mobile",
+      "run": 2,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3573.58,
+      "CLS": 0.000016731419990689585,
+      "TBT": 200.1975
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "mobile",
+      "run": 3,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 3728.5319999999992,
+      "CLS": 0.000016731419990689585,
+      "TBT": 179.74199999999996
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "desktop",
+      "run": 1,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 768.592,
+      "CLS": 0.00016650282708069718,
+      "TBT": 9
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "desktop",
+      "run": 2,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 791.3365000000001,
+      "CLS": 0.0004385957217605417,
+      "TBT": 8
+    },
+    {
+      "route": "/nft/emerald-042",
+      "profile": "desktop",
+      "run": 3,
+      "version": "13.5.0",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.6998.35 Safari/537.36",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "LCP": 759.552,
+      "CLS": 0.00016650282708069718,
+      "TBT": 0
+    }
+  ]
+}

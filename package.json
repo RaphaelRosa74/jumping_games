@@ -1,0 +1,64 @@
+{
+  "name": "kurio-nft-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:mocks": "vite --mode demo --host 127.0.0.1",
+    "build": "tsc -b && vite build --mode demo",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "playwright test",
+    "test:update": "playwright test --update-snapshots",
+    "test:report": "playwright show-report reports/playwright",
+    "audit": "node scripts/lighthouse.mjs",
+    "format": "prettier --write src tests scripts *.json *.ts *.js *.md"
+  },
+  "dependencies": {
+    "@fontsource/space-mono": "latest",
+    "@mswjs/socket.io-binding": "latest",
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@tanstack/react-query": "latest",
+    "@tanstack/react-router": "latest",
+    "axios": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "msw": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io-client": "latest",
+    "tailwind-merge": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@playwright/test": "^1.51.1",
+    "@tailwindcss/vite": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "chrome-launcher": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "globals": "latest",
+    "lighthouse": "latest",
+    "prettier": "^3.9.9",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
