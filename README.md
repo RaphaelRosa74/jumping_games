@@ -1,3 +1,6 @@
+# Acesse o site:
+https://jumping-games.vercel.app/?q=&category=&network=&sort=recent&page=1&min=&max=&tab=all
+
 # Kurio — NFT Marketplace
 
 Implementação do desafio frontend em React e TypeScript, baseada nos frames desktop e mobile fornecidos. Todos os pagamentos, carteiras, usuários e NFTs são **simulados**. Não há integração com blockchain nem movimentação de dinheiro.
